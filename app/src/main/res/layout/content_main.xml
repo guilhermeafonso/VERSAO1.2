@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.MainActivity"
+    android:background="#C9F1FD"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="StaySafe"
+        android:textAllCaps="false"
+        android:textColor="#454545"
+        android:textSize="70sp"
+        app:fontFamily="@font/rochester"
+        android:shadowColor="#99B7C0"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="2"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:src="@mipmap/logo" />
+
+    <Button
+        android:id="@+id/btnFazerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shadows"
+
+        android:text="Fazer Login"
+        android:textColor="#454545"
+        android:textSize="17sp"
+        />
+
+</LinearLayout>
